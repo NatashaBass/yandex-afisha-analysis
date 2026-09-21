@@ -202,29 +202,3 @@
 
 ```bash
 pip install pandas numpy scipy matplotlib seaborn jupyter
-```
-
-### Локальный запуск
-
-Склонируйте репозиторий:
-
-```bash
-git clone https://github.com/NatashaBass/yandex-afisha-analysis.git
-cd yandex-afisha-analysis
-```
-
-Запустите Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Откройте файл `yandex_afisha_analysis.ipynb`.
-
-Для полного повторного выполнения анализа необходимы исходные датасеты проекта. При локальном запуске пути к файлам данных в notebook могут потребовать изменения в соответствии с их расположением на вашем компьютере.
-
-Для просмотра опубликованного дашборда локальное развёртывание не требуется — он доступен по ссылке выше.
-
-## Файлы
-
-- [`yandex_afisha_analysis.ipynb`](yandex_afisha_analysis.ipynb) — исследовательский анализ, статистические тесты, визуализации и выводы
