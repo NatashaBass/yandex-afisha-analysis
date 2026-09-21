@@ -165,15 +165,17 @@
 ## Стек
 
 - Python
+- SQL
 - pandas
 - NumPy
 - SciPy
 - Matplotlib
 - Seaborn
+- Yandex DataLens
 - Jupyter Notebook
 - предобработка данных
 - исследовательский анализ данных (EDA)
-- feature engineering
+- инжиниринг признаков
 - анализ выбросов
 - визуализация данных
 - статистический анализ
@@ -182,7 +184,46 @@
 
 ## Дашборд
 
-[Yandex DataLens](https://datalens.yandex/wr0kkn3j3v0yf)
+Интерактивный дашборд с основными показателями проекта:
+
+📊 [Открыть дашборд в Yandex DataLens](https://datalens.yandex/wr0kkn3j3v0yf)
+
+## Запуск проекта
+
+### Системные требования
+
+Для локального запуска notebook потребуется:
+
+- Python 3.x;
+- Jupyter Notebook;
+- библиотеки pandas, NumPy, SciPy, Matplotlib и Seaborn.
+
+Установить необходимые библиотеки можно командой:
+
+```bash
+pip install pandas numpy scipy matplotlib seaborn jupyter
+```
+
+### Локальный запуск
+
+Склонируйте репозиторий:
+
+```bash
+git clone https://github.com/NatashaBass/yandex-afisha-analysis.git
+cd yandex-afisha-analysis
+```
+
+Запустите Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Откройте файл `yandex_afisha_analysis.ipynb`.
+
+Для полного повторного выполнения анализа необходимы исходные датасеты проекта. При локальном запуске пути к файлам данных в notebook могут потребовать изменения в соответствии с их расположением на вашем компьютере.
+
+Для просмотра опубликованного дашборда локальное развёртывание не требуется — он доступен по ссылке выше.
 
 ## Файлы
 
